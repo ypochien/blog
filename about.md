@@ -8,7 +8,7 @@ permalink: /about/
 
 I live for **speculation** NOT investment
  
-* Speculation Trading
+* Speculative Trading
 * Python
 * C/C++
 * DolphinDB
