@@ -28,7 +28,7 @@ title: 在 VNPY 上交易台灣股票、期貨
     ```bash
     (base) D:\vnpy_demo>conda create -n vnpy_env python=3.7↩
     ```
-    ![Andconda Install](https%3A//i.imgur.com/RKI11nV.png)  
+    ![Andconda Install](https://i.imgur.com/RKI11nV.png)
 
 
 2. 切換至 Python 3.7 環境
