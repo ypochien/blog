@@ -17,11 +17,19 @@ title: 在 VNPY 上交易台灣股票、期貨
 
 為了示範 Shioaji API 的功能，而 [VNPY](https://github.com/vnpy/vnpy) 是基於 Python的開源量化交易系統開發框架，所以這邊會一步步的帶大家如何在自己的電腦上，使用VNPY 交易台灣的證券、期貨市場
 
+- [前言](#前言)
+- [Python環境建立](#python環境建立)
+- [VNPY安裝](#vnpy安裝)
+- [VNPY執行](#vnpy執行)
+- [補充說明](#補充說明)
+- [Any Question?](#any-question)
+  
+
 Python環境建立
 ==
 由於 VNPY 只支持 Python 3.7 64位元版本，所以先透過 Anaconda 建立 Python 環境
 
-0. 下載、安裝 [Anaconda](https://www.anaconda.com/download/)。
+1. 下載、安裝 [Anaconda](https://www.anaconda.com/download/)。
 [安裝教學](https://medium.com/python4u/anaconda%E4%BB%8B%E7%B4%B9%E5%8F%8A%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-f7dae6454ab6)
 
 1. 執行 Anaconda Prompt，並建立 Python 3.7 環境
