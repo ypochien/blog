@@ -7,11 +7,11 @@ title: 在 VNPY 上交易台灣股票、期貨
 ==
 [Shioaji]([https://www.](https://sinotrade.github.io/)) 是台灣證券市場上，首創 **跨平台** 的 Python API，提供**行情**、**交易**、**帳務**等功能，目前針對台灣股票、權證、期貨、選擇權，皆已上線運行。
 
-| 支持項目   |   	|   	|   	|   	|
-|:-:	|:---:	|---	|---	|---	|
-|  功能分類 	| 委託交易  	| 行情提供  	|   帳務查詢	|  |
-|  支援市場 	| 台灣證期權  | 海期(未開發)  	| 複委託(未開發)  	|   	|
-| 支援平台  	| Windows 64bit  	| Liuux 64bit  	|  OSX(無下單)	|   	|
+| 支持項目   |   	|   	|   	|   
+|:-:	|:---:	|:---:	|:--- |:---:	
+|  功能分類 	| 委託交易  	| 行情提供  	|   帳務查詢	|  
+|  支援市場 	| 台灣證期權  | 海期(未開發)  	| 複委託(未開發)  	|   	
+| 支援平台  	| Windows 64bit  	| Liuux 64bit  	|  OSX(無下單)	|   	
 | 支援語言| Python>=3.6|C++(開發中)| C#(暫定)
 
 
@@ -38,7 +38,7 @@ title: 在 VNPY 上交易台灣股票、期貨
     ```
 3. 下載 VNPY-SHIOAJI 檔案，並使用 <font color=red> SinopacGateway </font> Branch
 
-    * <font color=green>由於目前 VNPY 還未整併 Shioaji 所提交的合併申請，所以目前先從Shioaji專案庫安裝</font>
+    * 由於目前 VNPY 還未整併 Shioaji 所提交的合併申請，所以目前先從Shioaji專案庫安裝
 
     ```bash
     (vnpy_env) D:\vnpy_demo>
@@ -59,11 +59,11 @@ title: 在 VNPY 上交易台灣股票、期貨
     ```
 4. 進行安裝 VNPY，這部分安裝會需要一點時間
 
-    <font color=green>Windows 請使用 install.bat</font>
+    * Windows 請使用 install.bat
 
-    <font color=green>Linux 請使用 ./install.sh</font>
+    * Linux 請使用 ./install.sh
 
-    <font color=green>OSX 請使用 ./install_osx.sh</font>
+    * OSX 請使用 ./install_osx.sh
 
     ```bash
     (vnpy_env) D:\vnpy_demo\vnpy>install.bat
