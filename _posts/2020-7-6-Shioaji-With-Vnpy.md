@@ -104,3 +104,7 @@ VNPY執行
     * GateWay 是下單管道
     * App 是屬於VNPY目前有實作的功能，例如 *行情紀錄*、*策略回測*、*演算法交易* 等等，細節請自行參考 VNPY 官方網站
 
+Any Question?
+==
+有關於 [Shioaji](https://sinotrade.github.io/) 的任何提問或建議，歡迎至[Github Issue](https://github.com/Sinotrade/Shioaji/issues)中提出，
+或者到 [GITTER](https://gitter.im/Sinotrade/Shioaji) 留言
