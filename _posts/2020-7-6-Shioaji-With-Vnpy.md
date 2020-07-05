@@ -78,10 +78,10 @@ VNPY執行
     ```bash
     (vnpy_env) D:\vnpy_demo\vnpy>python examples\vn_trader\run.py
     ```
-    * 選擇 Sinopac
+    * 選擇 Sinopac 登入
     
-        ![picture 3](https%3A//i.imgur.com/5CfOXxR.png)  
-    * 輸入參數
+        ![picture 3](https://i.imgur.com/5CfOXxR.png)  
+    * 輸入登入資訊(使用測試環境)
         
         ![picture 1](https://i.imgur.com/wR7ag1L.png)  
     
