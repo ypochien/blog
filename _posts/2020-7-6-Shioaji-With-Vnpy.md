@@ -17,7 +17,7 @@ title: 在 VNPY 上交易台灣股票、期貨
 
 為了示範 Shioaji API 的功能，而 [VNPY](https://github.com/vnpy/vnpy) 是基於 Python的開源量化交易系統開發框架，所以這邊會一步步的帶大家如何在自己的電腦上，使用VNPY 交易台灣的證券、期貨市場
 
-環境建立
+Python環境建立
 ==
 由於 VNPY 只支持 Python 3.7 64位元版本，所以先透過 Anaconda 建立 Python 環境
 
@@ -36,7 +36,10 @@ title: 在 VNPY 上交易台灣股票、期貨
     (base) D:\vnpy_demo>conda activate vnpy_env↩
     (vnpy_env) D:\vnpy_demo>
     ```
-3. 下載 VNPY-SHIOAJI 檔案，並使用 <font color=red> SinopacGateway </font> Branch
+
+VNPY安裝
+==
+3. 下載 VNPY-SHIOAJI 檔案，並使用 SinopacGateway branch
 
     * 由於目前 VNPY 還未整併 Shioaji 所提交的合併申請，所以目前先從Shioaji專案庫安裝
 
@@ -69,5 +72,30 @@ title: 在 VNPY 上交易台灣股票、期貨
     (vnpy_env) D:\vnpy_demo\vnpy>install.bat
     ```
 
+VNPY執行
+==
+5. 執行 VNPY
+    ```bash
+    (vnpy_env) D:\vnpy_demo\vnpy>python examples\vn_trader\run.py
+    ```
+    * 選擇 Sinopac
+    
+        ![picture 3](https%3A//i.imgur.com/5CfOXxR.png)  
+    * 輸入參數
+        
+        ![picture 1](https://i.imgur.com/wR7ag1L.png)  
+    
+    * 開始使用
+        ![picture 2](https://i.imgur.com/0nnWqhj.png)  
 
+補充說明
+==
+* 如何在 VNPY 訂閱報價
+  * 選擇 TSE (台灣證券交易所) 和股票代碼(2330) Enter 可訂閱台積電
+  * 選擇 TFE (台灣期貨交易所) 和期貨代碼(TXFG0) Enter 可訂閱台指期07
+
+* VNPY 功能
+  * 可參考 run.py
+    * GateWay 是下單管道
+    * App 是屬於VNPY交易功能
 
