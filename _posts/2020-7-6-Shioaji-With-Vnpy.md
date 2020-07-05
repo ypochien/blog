@@ -93,9 +93,14 @@ VNPY執行
 * 如何在 VNPY 訂閱報價
   * 選擇 TSE (台灣證券交易所) 和股票代碼(2330) Enter 可訂閱台積電
   * 選擇 TFE (台灣期貨交易所) 和期貨代碼(TXFG0) Enter 可訂閱台指期07
+  * 交易商品列表，可在 *查詢合約* 功能查詢!
+    
+    ![contracts](https://i.imgur.com/hpnJrH3.png)
+    ![picture 5](https%3A//i.imgur.com/Jpk0Gbn.png)  
+
 
 * VNPY 功能
   * 可參考 run.py
     * GateWay 是下單管道
-    * App 是屬於VNPY交易功能
+    * App 是屬於VNPY目前有實作的功能，例如 *行情紀錄*、*策略回測*、*演算法交易* 等等，細節請自行參考 VNPY 官方網站
 
