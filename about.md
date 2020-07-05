@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+🤷🏿‍♂️ Nothing with me. 🤷🏿‍♂️
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I live for **speculation** NOT investment
+ 
+* Speculation Trading
+* Python
+* C/C++
+* DolphinDB
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ypochien (at) gmail.com]](mailto:ypochien+blog@gmail.com)
