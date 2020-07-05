@@ -96,7 +96,7 @@ VNPY執行
   * 交易商品列表，可在 *查詢合約* 功能查詢!
     
     ![contracts](https://i.imgur.com/hpnJrH3.png)
-    ![picture 5](https%3A//i.imgur.com/Jpk0Gbn.png)  
+    ![picture 5](https://i.imgur.com/Jpk0Gbn.png)  
 
 
 * VNPY 功能
